@@ -1,73 +1,36 @@
-# ENEMY_TYPES
+# ENEMY TYPES
 
-## 1. Grunt
-- **Element:** Earth  
-- **Stats:** HP: 100, Attack: 10, Speed: 5  
-- **Attack Patterns:** Melee attacks in close range  
-- **Telegraphed Abilities:** Winds up before each melee attack  
-- **Difficulty Scaling:** Easy
-
----
+## 1. Headless Swordsman
+- **Stats:** 100 HP, 30 ATK, 10 DEF
+- **Passives:** Regenerate 5 HP per turn
+- **Skills:** Slash (Deals 15 damage), Charge (Charges attack, doubling next attack damage)
 
 ## 2. Mage
-- **Element:** Fire  
-- **Stats:** HP: 80, Attack: 15, Speed: 4  
-- **Attack Patterns:** Ranged fireballs, area damage  
-- **Telegraphed Abilities:** Glows brightly before casting  
-- **Difficulty Scaling:** Medium
+- **Stats:** 80 HP, 20 ATK, 5 DEF
+- **Passives:** Mana Regeneration (+3 Mana per turn)
+- **Skills:** Fireball (Deals 25 damage), Teleport (Avoids next attack)
 
----
+## 3. Cursed Painter
+- **Stats:** 60 HP, 15 ATK, 5 DEF
+- **Passives:** Cursed (Causes fear, lowering enemies' attack)
+- **Skills:** Paint of Pain (Deals damage and curses target), Canvas of Shadows (Makes allies invisible)
 
-## 3. Archer
-- **Element:** Wood  
-- **Stats:** HP: 70, Attack: 12, Speed: 6  
-- **Attack Patterns:** Ranged arrows with critical hit chance  
-- **Telegraphed Abilities:** Nocks an arrow, pauses briefly  
-- **Difficulty Scaling:** Medium
+## 4. Shen
+- **Stats:** 120 HP, 25 ATK, 15 DEF
+- **Passives:** High Agility (Can dodge attacks)
+- **Skills:** Earthquake (Deals area damage), Shuriken Storm (Multiple targets)
 
----
+## 5. Dragon Head
+- **Stats:** 200 HP, 50 ATK, 20 DEF
+- **Passives:** Fiery Breath (Deals burn damage)
+- **Skills:** Fire Breath (Heavy damage), Tail Whip (Knocks back enemies)
 
-## 4. Assassin
-- **Element:** Shadow  
-- **Stats:** HP: 60, Attack: 20, Speed: 8  
-- **Attack Patterns:** Quick strikes, backstab damage  
-- **Telegraphed Abilities:** Becomes invisible briefly before attacking  
-- **Difficulty Scaling:** Hard
+## 6. Nautica
+- **Stats:** 90 HP, 35 ATK, 10 DEF
+- **Passives:** Water Adaptation (Heals in water)
+- **Skills:** Tidal Wave (Area damage), Deep Dive (Escape enemy attacks)
 
----
-
-## 5. Shield Bearer
-- **Element:** Metal  
-- **Stats:** HP: 150, Attack: 5, Speed: 3  
-- **Attack Patterns:** Blocks incoming damage, counterstrikes  
-- **Telegraphed Abilities:** Raises shield before attacking  
-- **Difficulty Scaling:** Medium
-
----
-
-## 6. Berserker
-- **Element:** Fire  
-- **Stats:** HP: 200, Attack: 25, Speed: 4  
-- **Attack Patterns:** Frenzied melee attacks, area knockback  
-- **Telegraphed Abilities:** Roars loudly before charging  
-- **Difficulty Scaling:** Hard
-
----
-
-## 7. Elemental Spirit
-- **Element:** Water  
-- **Stats:** HP: 90, Attack: 18, Speed: 5  
-- **Attack Patterns:** Elemental AoE damage, water blasts  
-- **Telegraphed Abilities:** Creates water whirlpool before attack  
-- **Difficulty Scaling:** Medium
-
----
-
-## 8. Dragon
-- **Element:** Fire  
-- **Stats:** HP: 500, Attack: 30, Speed: 7  
-- **Attack Patterns:** High damage fire breath, aerial attacks  
-- **Telegraphed Abilities:** Flies up before using fire breath  
-- **Difficulty Scaling:** Very Hard
-
----
+## 7. Grim Reaper
+- **Stats:** 150 HP, 40 ATK, 10 DEF
+- **Passives:** Death’s Embrace (Reduces enemies’ defenses)
+- **Skills:** Soul Reap (Deals damage and steals health), Scythe Slash (Heavy damage to one target).
