@@ -14,6 +14,9 @@ func _ready() -> void:
 	end_turn_button.pressed.connect(_on_end_turn_pressed)
 	print("Player:", player_unit_data.display_name, " element=", player_unit_data.element.display_name)
 	print("Enemy:", enemy_unit_data.display_name, " element=", enemy_unit_data.element.display_name)
+	var mult := ElementRules.damage_multiplier(player_unit_data.element, enemy_unit_data.element)
+	print("Damage multiplier (player -> enemy): ", mult)
+
 
 func _on_end_turn_pressed() -> void:
 	if current_turn != Turn.PLAYER:
