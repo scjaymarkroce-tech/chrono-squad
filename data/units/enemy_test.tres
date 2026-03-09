@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://d1vcd2qxqqseq"]
+
+[ext_resource type="Script" uid="uid://bnfw4ew15ef3m" path="res://unit_data.gd" id="1_lssgb"]
+[ext_resource type="Resource" uid="uid://dx2r33d6m3nfa" path="res://data/elements/nature.tres" id="1_xardv"]
+
+[resource]
+script = ExtResource("1_lssgb")
+id = "enemy_test"
+display_name = "Enemy Test"
+max_hp = 20
+attack = 6
+defense = 1
+speed = 7
+element = ExtResource("1_xardv")
+is_player_unit = false
+metadata/_custom_type_script = "uid://bnfw4ew15ef3m"

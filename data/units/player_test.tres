@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://by7g15ha6aekf"]
+
+[ext_resource type="Resource" uid="uid://b13l6alk4gbx5" path="res://data/elements/fire.tres" id="1_1dsfr"]
+[ext_resource type="Script" uid="uid://bnfw4ew15ef3m" path="res://unit_data.gd" id="1_b6jxg"]
+
+[resource]
+script = ExtResource("1_b6jxg")
+id = "player_test"
+display_name = "Player Test"
+max_hp = 30
+attack = 8
+defense = 3
+speed = 10
+element = ExtResource("1_1dsfr")
+metadata/_custom_type_script = "uid://bnfw4ew15ef3m"

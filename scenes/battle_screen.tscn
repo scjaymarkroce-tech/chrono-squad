@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://ric8yil3nv7v"]
 
 [ext_resource type="Script" uid="uid://c025sgsrchm2g" path="res://scripts/battle_screen.gd" id="1_441kk"]
+[ext_resource type="Resource" uid="uid://by7g15ha6aekf" path="res://data/units/player_test.tres" id="2_y5my5"]
+[ext_resource type="Resource" uid="uid://d1vcd2qxqqseq" path="res://data/units/enemy_test.tres" id="3_6lb5u"]
 
 [node name="battle_screen" type="Control" unique_id=1611003930]
 layout_mode = 3
@@ -8,6 +10,8 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_441kk")
+player_unit_data = ExtResource("2_y5my5")
+enemy_unit_data = ExtResource("3_6lb5u")
 
 [node name="title_label" type="Label" parent="." unique_id=1479733885]
 layout_mode = 0

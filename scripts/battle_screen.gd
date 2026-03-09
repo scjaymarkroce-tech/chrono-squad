@@ -1,5 +1,7 @@
 extends Control
 
+@export var player_unit_data: UnitData
+@export var enemy_unit_data: UnitData
 enum Turn { PLAYER, ENEMY }
 
 var current_turn: Turn = Turn.PLAYER
@@ -10,6 +12,8 @@ var current_turn: Turn = Turn.PLAYER
 func _ready() -> void:
 	_update_ui()
 	end_turn_button.pressed.connect(_on_end_turn_pressed)
+	print("Player:", player_unit_data.display_name, " element=", player_unit_data.element.display_name)
+	print("Enemy:", enemy_unit_data.display_name, " element=", enemy_unit_data.element.display_name)
 
 func _on_end_turn_pressed() -> void:
 	if current_turn != Turn.PLAYER:
