@@ -1,0 +1,1 @@
+Fire > Nature > Water > Fire\nImagination = Void\n+50% winner element\n-35% losing element\nno change for same element
