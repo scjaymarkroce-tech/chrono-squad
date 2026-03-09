@@ -1,3 +1,35 @@
 [gd_scene format=3 uid="uid://ebgv2swpj3t3"]
 
-[node name="Main" type="Node" unique_id=2084417678]
+[ext_resource type="Script" uid="uid://boe4ix6rbyqf3" path="res://scripts/main.gd" id="1_o5qli"]
+
+[node name="Main" type="Control" unique_id=1646914616]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_o5qli")
+
+[node name="Label" type="Label" parent="." unique_id=1345519569]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 464.0
+offset_top = 82.0
+offset_right = 574.0
+offset_bottom = 105.0
+grow_horizontal = 2
+text = "Chrono Squad"
+
+[node name="Button" type="Button" parent="." unique_id=167930651]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 432.0
+offset_top = 252.0
+offset_right = 619.0
+offset_bottom = 283.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Start Battle (Prototype)"
